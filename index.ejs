@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- //bootsrap navbar// -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- //link to CSS // -->
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Home Page Boston Renters Guide</title>
+</head>
+
+<body>
+    <%- include partials/header2 %> 
+  <div class="container">
+       <h1>Boston Renters Resource Guide</h1>   
+  </div>
+      
+  <div class="content">
+      
+    <h3 class="display">APARTMENT LISTING</h1>
+      <p> a quick link to help individuals and families find and retain decent, affordable housinseg rvices provided at no
+        charge. Please enter zipcode </p>
+      <a class="btn btn-primary btn-lg"
+        href="https://www.metrohousingboston.org/apartment-listings/"
+        role="button"> Click here to Learn more »</a>
+
+  </div>
+  <div class="content">
+    <h3 class="display">GET LEGAL HELP</h1>
+      <p> A link to lawyers for low income and extreme low income indivduals and families </p>
+      <a class="btn btn-primary btn-lg" href="https://mlac.org/" role="button"> Click Here To Learn more »</a>
+  </div>
+  <div class="content">
+      <h3 class="display">Shelter For Families</h1>
+        <p> If you are an adult with a child/children in your custody or you are pregnant, you can apply for emergency
+            shelter through the Department of Housing and Community Development. Please click below for listings in your area </p>
+            <a class="btn btn-primary btn-lg" href="https://hedfuel.azurewebsites.net/ " role="button">Click Here To Learn more
+               </div>
+               <br> 
+            <div class="content">
+                <h3 class="display">QUICK LOOK UP BY ZIPCODE</h1></p>     
+                      </div>
+  <div class="formcontent"> 
+  </div>
+   <!-- form to the resource page --> -->
+
+  <form action="/resources" method="POST">
+    <div class="form-row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="zipcode" name="zipcode">
+        <button type="submit">Submit</button>
+        <img src="/boston" alt="bostonpic">
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+  </form
+  
+  
+  
+  
+  >
+  <div class="container">
+
+    <div class="qode-ls-simple-search-holder-part keyword">
+      <input type="text" class="qode-ls-simple-search-keyword" name="qode-ls-simple-search-keyword"
+        placeholder="Search by Neighborhood, City, Zip or Keyword">
+    </div>
+    <div class="qode-ls-simple-search-holder-part submit">
+  <button type="submit" class="qode-ls-simple-search-button"><span class="qode-ls-simple-search-button-text">Find a
+          Home!</span><span class="qode-ls-simple-search-button-icon"><span
+            class="icon dripicons-arrow-thin-right"></span></span></button>
+    </div>
+
+  </div> --> -->
+
+
+</body>
+
+</html>
